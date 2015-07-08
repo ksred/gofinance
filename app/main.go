@@ -205,6 +205,8 @@ func calc(src fquery.Source, symbols ...string) {
 		fmt.Printf("day low/high: %v/%v (%v)\n", numberf(r.DayLow), numberf(r.DayHigh), numberf(r.DayHigh-r.DayLow))
 		fmt.Printf("year low/high: %v/%v (%v)\n", numberf(r.YearLow), numberf(r.YearHigh), numberf(r.YearHigh-r.YearLow))
 		fmt.Printf("moving avg. 50/200: %v/%v\n", numberf(r.Ma50), numberf(r.Ma200))
+		// Add volume
+		fmt.Printf("volume: %v\n", r.Volume)
 		divYield := binaryfp(r.DividendYield*100, r.DividendYield > minDivYield)
 		fmt.Printf("last ex-dividend: %v, div. per share: %v, div. yield: %v,\n earnings per share: %v, dividend payout ratio: %v\n",
 			r.DividendExDate.Format("02/01"), numberf(r.DividendPerShare),
