@@ -3,7 +3,7 @@ package bloomberg
 import (
 	"code.google.com/p/go.net/html"
 	"fmt"
-	"github.com/aktau/gofinance/fquery"
+	"../fquery"
 	"net/http"
 	"strconv"
 	"strings"

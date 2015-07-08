@@ -3,9 +3,10 @@ package sqlitecache
 import (
 	"database/sql"
 	"fmt"
-	"github.com/aktau/gofinance/fquery"
-	"github.com/aktau/gofinance/util"
-	"github.com/coopernurse/gorp"
+	"../fquery"
+	"../util"
+	"gopkg.in/gorp.v1"
+	//"github.com/coopernurse/gorp"
 	_ "github.com/mattn/go-sqlite3"
 	"log"
 	"os"

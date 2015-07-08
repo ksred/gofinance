@@ -3,8 +3,8 @@ package yahoofinance
 import (
 	"encoding/csv"
 	"fmt"
-	"github.com/aktau/gofinance/fquery"
-	"github.com/aktau/gofinance/util"
+	"../fquery"
+	"..//util"
 	"io"
 	"net/http"
 	"net/url"

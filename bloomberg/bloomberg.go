@@ -2,7 +2,7 @@ package bloomberg
 
 import (
 	"fmt"
-	"github.com/aktau/gofinance/fquery"
+	"../fquery"
 	"time"
 )
 
